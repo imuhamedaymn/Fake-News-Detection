@@ -8,8 +8,8 @@ import nltk
 nltk.download('stopwords')
 
 # Load vectorizer and model
-Vectorizer = joblib.load("./Models/Vectorizer.pkl")
-Dmodel = joblib.load("./Models/DecisionTreeClassification.pkl")
+Vectorizer = joblib.load("Models/Vectorizer.pkl")
+Dmodel = joblib.load("Models/DecisionTreeClassification.pkl")
 
 # Preprocessing function
 def preprocess_text(text_data):
